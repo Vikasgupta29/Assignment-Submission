@@ -1,0 +1,36 @@
+Assignment Day 5
+
+# 5 List Method
+lst = ['java','python','hadoop']
+lst.append('spark')
+lst.insert(2,'sqoop')
+lst.count('python')
+lst.index('python')
+lst.pop(1)
+
+
+
+# 2 tuple Method
+tup = ('hive',200,'python',100)
+tup.count(200)
+tup.index('python')
+
+
+
+# 5 dict Method
+details = {"name":"Sample", "age":23, "email":"sample@sample.com"}
+details.get("age")
+details.keys()
+details.pop("name")
+details.values()
+details.items()
+
+
+
+# 5 string Method
+str = "python"
+str.index('t')
+str.isalpha()
+str.isdigit()
+str.replace('n','l')
+str.upper()
