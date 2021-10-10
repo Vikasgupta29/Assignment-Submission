@@ -1,0 +1,32 @@
+Assignment Day 4
+
+Question:-
+Define a function employee_details() which will take  details of an employee
+such as empid, name, contact, address, salary as arguments and display them.
+
+
+Solution Code:-
+
+def employee_details(empid, name, contact, address, salary):
+  '''
+  This function takes employee details and display them.
+  '''
+  print('Employee ID:', empid, '\nName:', name, '\nContact:', contact, '\nAddress:', address, '\nSalary:', salary)
+
+
+employee_details(1001,'Vikas Gupta', '9999999999', 'Delhi', 50000)
+
+
+Output:-
+
+Employee ID: 1001 
+Name: Vikas Gupta 
+Contact: 9999999999 
+Address: Delhi 
+Salary: 50000
+
+
+
+
+Google Collab Link:-
+https://colab.research.google.com/drive/1JWBLBPzd9HGWdCzvQeVHjLPJxcS8dRVG?usp=sharing
