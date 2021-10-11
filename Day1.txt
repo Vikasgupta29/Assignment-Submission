@@ -1,0 +1,18 @@
+Assignment Day 1
+
+as we know,
+n=x(x+1)/2
+2n=(x2+x)
+x2+x-2n=0
+
+by using,
+when, ax2+bx+c=0
+then, x=(-b±√(b2-4ac))/2
+here, a=1, b=1, c=n
+so, x=√2n
+
+we ignore constants in time complexity,
+x=√n
+
+so, time complexity is,
+Tn = O(sqrt N)
