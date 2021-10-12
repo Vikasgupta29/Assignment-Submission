@@ -1,0 +1,15 @@
+def getMinimumCost(k,c):
+    c.sort()
+    l=len(c)
+    total=0
+    for i in range(l-1,0,-1):
+        total=total+(int(i/k)+1)*c[i]
+    return total
+
+n=int(input())
+k=int(input())
+c=[]
+for i in range(n):
+    c.append(int(input()))
+minimumCost=getMinimumCost(k,c)
+print(minimumCost)
